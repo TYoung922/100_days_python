@@ -41,3 +41,31 @@
 # nemo.breathe()
 # print(nemo.num_eyes)
 
+# def add(*num):
+#     sum_of = 0
+#     for n in num:
+#         sum_of += n
+#
+#     print(sum_of)
+#
+# add(1, 2, 3, 3)
+
+# def calculate(n, **kwargs):
+#     n += kwargs["add"]
+#     n *= kwargs["multiply"]
+#     print(n)
+#
+# calculate(2, add=3, multiply=5)
+
+# class Car:
+#     def __init__(self, **kw):
+#         self.make = kw.get("make")
+#         self.model = kw.get("model")
+#
+# my_car = Car(make="nissan", model="gt-r")
+# print(my_car)
+
+i = 1
+while i <= 10:
+   print(i * '*')
+   i = i + 1

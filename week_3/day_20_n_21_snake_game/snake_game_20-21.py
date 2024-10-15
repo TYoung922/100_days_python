@@ -1,5 +1,5 @@
 from turtle import Screen
-from snake_game_day_20_n_21.snake_class import Snake
+from day_20_n_21_snake_game.snake_class import Snake
 from food_class import Food
 from scoreboard_class import Scoreboard
 import time

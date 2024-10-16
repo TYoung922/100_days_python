@@ -12,6 +12,7 @@ WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
 reps = 0
+high_reps = 0
 timer = None
 
 # ---------------------------- TIMER RESET ------------------------------- #
@@ -20,8 +21,12 @@ def reset_timer():
     canvas.itemconfig(timer_text,text = "00:00")
     stage_info.config(text="Start Timer", fg=PINK)
     check_tracking["text"] = ""
+    high_check["text"] = ""
+
     global reps
+    global high_reps
     reps = 0
+    high_reps = 0
 
 
 
@@ -61,6 +66,7 @@ def start_timer():
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
 def countdown(count):
     global timer
+    global reps
     num_checks = int(reps / 2)
 
 
@@ -77,7 +83,15 @@ def countdown(count):
 
     else:
         start_timer()
-        check_tracking["text"] = "✔" * num_checks
+        if reps == 9:
+            check_tracking["text"] = ""
+            global high_reps
+            reps = 1
+            high_reps += 1
+            high_check["text"] = "✔" * high_reps
+
+        else:
+            check_tracking["text"] = "✔" * num_checks
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -113,6 +127,9 @@ reps_state.grid(column=1, row=2)
 # checkmark = "✔" * current_status
 check_tracking = Label(bg=YELLOW, fg=GREEN, font=(FONT_NAME, 12, "normal"))
 check_tracking.grid(column=1, row=3)
+
+high_check = Label(bg=YELLOW, fg=RED, font=(FONT_NAME, 12, "normal"))
+high_check.grid(column=1, row=4)
 
 
 

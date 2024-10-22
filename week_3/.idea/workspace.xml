@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d52e9a4-cd29-4f23-85dc-8ec8f704e424" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../week_4/day_32/birthday_emailer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week_4/day_32/birthdays.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week_4/day_32/quote_emailer_main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../week_4/day_34/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week_4/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2nGU59dtWSfuQ0oIth9kXWVUMo7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Other_Tkinter_Widgets.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.pong_game.executor": "Run",
+    "Python.score_board_class.executor": "Run",
+    "Python.snake_game_20-21.executor": "Run",
+    "Python.working.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/orick/Documents/School/software_dev/projects/python_projects/week_3"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\orick\Documents\School\software_dev\projects\python_projects\week_3\day_28" />
+      <recent name="C:\Users\orick\Documents\School\software_dev\projects\python_projects\week_3\day_27" />
+      <recent name="C:\Users\orick\Documents\School\software_dev\projects\python_projects\week_3\snake_game" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d52e9a4-cd29-4f23-85dc-8ec8f704e424" name="Changes" comment="" />
+      <created>1728598721095</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728598721095</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
